@@ -16,22 +16,22 @@ while True:
     else:
       #do checks
       if player_choice == "R" and cpu_choice == "S":
-        print("Rock smash Scissors. Player Wins!")
+        print("Rock beats Scissors. Player Wins!")
      
       elif player_choice == "P" and cpu_choice == "R":
-        print("Paper smash Rock. Player Wins!")
+        print("Paper beats Rock. Player Wins!")
         
       elif player_choice == "S" and cpu_choice == "P":
-        print("Scissors smash Paper. Player Wins!")
+        print("Scissors beats Paper. Player Wins!")
     
       elif player_choice == "S" and cpu_choice == "R":
-        print("Rock smash Scissors. CPU Wins")
+        print("Rock beats Scissors. CPU Wins")
         
       elif player_choice == "R" and cpu_choice == "P":
-        print("Paper smash Rock. CPU Wins!")
+        print("Paper beats Rock. CPU Wins!")
         
       else:
-        print("Scissors smash Paper. CPU Wins!")
+        print("Scissors beats Paper. CPU Wins!")
         
       #Extra: To ask the user if they want to continue or not
       play_again = input("Play again? (y/n): ").lower()
